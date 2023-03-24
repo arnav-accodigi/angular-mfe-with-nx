@@ -4,9 +4,9 @@ import { CountService } from '@mf-app/shared/counter';
 @Component({
   selector: 'mf-app-library-entry',
   template: `
-    <div>
+  <div style="padding: 100px">
       <h1>Library</h1>
-      <p>{{ count }}</p>
+      <p>Count: {{ count }}</p>
       <button type="button" (click)="decrease()">Decrease</button>
       <button type="button" (click)="increase()">Increase</button>
     </div>

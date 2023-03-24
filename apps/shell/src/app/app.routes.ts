@@ -11,7 +11,7 @@ export const appRoutes: Route[] = [
   {
     path: 'gallery',
     loadChildren: () =>
-      loadRemoteModule('library', './Module').then((m) => m.RemoteEntryModule),
+      loadRemoteModule('gallery', './Module').then((m) => m.RemoteEntryModule),
   },
   {
     path: '',
